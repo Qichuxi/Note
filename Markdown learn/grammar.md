@@ -137,11 +137,16 @@ $$
 
 ### 分式
 
-较小的行内分数 $\frac{1}{2}$
+较小的行内分数 
 
-展示型的分式 $\displaystyle\frac{x+1}{x-1}$
+$\frac{1}{2}$
+
+展示型的分式 
+
+$\displaystyle\frac{x+1}{x-1}$
 
 ### 根式
+
 开平方 $\sqrt{2}$
 
 开$n$次方 $\sqrt[n]{2}$
@@ -166,21 +171,35 @@ quad 空格 $a\quad b$
 
 ### 累加，累乘和积分
 
-累加 $\sum_{k=1}^n\frac{{1}}{k} \quad \displaystyle\sum_{k=1}^n\frac{1}{k^2}$
+累加 
 
-累乘 $\prod_{k=1}^n\frac{l}{k} \quad \displaystyle\prod_{k=1}^n\frac{1}{k}$
+$\sum_{k=1}^n\frac{{1}}{k} \quad \displaystyle\sum_{k=1}^n\frac{1}{k^2}$
 
-积分 $\displaystyle \int_0^1x{\rm d}x \quad \iint_{D_{xy}} \quad \iiint_{\Omega_{xyz}}$
+累乘 
+
+$\prod_{k=1}^n\frac{l}{k} \quad \displaystyle\prod_{k=1}^n\frac{1}{k}$
+
+积分 
+
+$\displaystyle \int_0^1x{\rm d}x \quad \iint_{D_{xy}} \quad \iiint_{\Omega_{xyz}}$
 
 ### 用括号修饰
 
-圆括号 $\displaystyle \left( \right)$
+圆括号 
 
-放括号 $\displaystyle \left[\sum_{k=1}^{n}\frac{1}{k^2} \right]^2$
+$\displaystyle \left( \right)$
 
-花括号 $\displaystyle \left\{ \right\}$
+放括号 
 
-尖括号 $\displaystyle \left\langle\sum_{i=1}^{n}x \right\rangle\^2$
+$\displaystyle \left[\sum_{k=1}^{n}\frac{1}{k^2} \right]^2$
+
+花括号 
+
+$\displaystyle \left\{ \right\}$
+
+尖括号 
+
+$\displaystyle \left\langle\sum_{i=1}^{n}x \right\rangle\^2$
 
 ### 多行算式对齐
 居中：
@@ -209,4 +228,4 @@ $$
 
 $$
 \begin{pmatrix}
-1 & 1 &
+1 & 1 

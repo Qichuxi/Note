@@ -64,8 +64,35 @@ h_d=\displaystyle\left(\frac{2\varepsilon V_{dep}}{qN_A} \right)^{\frac{1}{2}}
 $$
 
 ## 5.2.2 MOS界面生成的电子及空穴浓度
-* 两个电位：
-  * **$ \phi_S $** : 描述半导体表面能带的弯曲程度，**$ \phi_S=(E_F-E_{Fp})/q $**
-  * **$ \phi_F $** : 描述平衡费米能级和本征费米能级差值，**$ \phi_F=(E_i-E_F)/q $**
 
-* p型半导体表面的空穴浓度 **$ p_S =\displaystyle N_A\,exp\left(-q\phi_S/k_BT\right) $** 推导如下：$ p_s=n_iexp(\frac{E_{Fp}-E_i}{K_BT})=niexp(\frac{E_{Fp}-E_F+E_F-Ei}{k_BT})=n_0exp(-q\phi_S/k_BT)且平衡时n_0=N_A $
+### 表面层压降和费米势：
+  
+  * **$ \phi_S $** : 描述半导体表面能带的弯曲程度，也是表面层压降 **$ \phi_S=(E_{i0}-E_{iS})/q $**
+  * **$ \phi_F $** : 费米势，是半导体内部本征费米能级和费米能级之差，**$ \phi_F=(E_{i0}-E_F)/q $**
+
+### p型半导体表面的空穴浓度 
+
+ * **$ p_S =\displaystyle N_A\,exp\left(-q\phi_S/k_BT\right) $**
+  
+  推导如下：$ p_s=n_iexp(\frac{E_{is}-E_F}{K_BT})=n_iexp(\frac{E_{is}-E_{i0}+E_{i0}-E_F}{k_BT})=n_0exp(-q\phi_S/k_BT)且平衡时n_0=N_A $ 
+
+### 表面电子浓度$ n_s $为：
+
+* **$ n_s=\displaystyle n_i\,exp\left( \frac{E_F-E_{iS}}{k_BT} \right)=ni\,exp\left(\frac{E_F-E_{i0}+E_{i0}-E_{iS}}{k_BT}\right)=n_i\,exp\left(\frac{-q(\phi_F -\phi_S)}{k_BT}\right) $,也等于$ \displaystyle n_i^2\,exp\left(\frac{q\phi_S}{k_BT}\right)/N_A $**
+
+
+### $ \phi_S 与表面载流子浓度关系$
+
+![](2021-11-22-23-45-28.png)
+
+## 5.2.3 平带电压
+
+* 理想MOS二极管，当栅极电压为零时，能带为平带状态。实际MOS管中，由于金属和半导体功函数不同，在接触前两者的$ E_F $ 不一样，在接触后，产生能带的弯曲，直到形成统一的费米能级。
+  
+* 能带的弯曲和 $ 功函数差  \phi_{ms},界面能级（氧化膜和半导体界面）中的电荷Q_{it},栅极氧化膜中存在的电荷Q_{ox} 有关 $,若想拉平能带必须施加电压，即$ V_{FB} $
+  
+* $ V_{FB}= \phi_{ms}-Q_{it}/C_{ox}-Q_{ox}/C_{ox} $
+
+* $ \phi_{ms}=\phi_m-(\chi_S+E_g/2+\phi_F) $
+
+* 

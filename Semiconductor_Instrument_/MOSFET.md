@@ -64,3 +64,8 @@ h_d=\displaystyle\left(\frac{2\varepsilon V_{dep}}{qN_A} \right)^{\frac{1}{2}}
 $$
 
 ## 5.2.2 MOS界面生成的电子及空穴浓度
+* 两个电位：
+  * **$ \phi_S $** : 描述半导体表面能带的弯曲程度，**$ \phi_S=(E_F-E_{Fp})/q $**
+  * **$ \phi_F $** : 描述平衡费米能级和本征费米能级差值，**$ \phi_F=(E_i-E_F)/q $**
+
+* p型半导体表面的空穴浓度 **$ p_S =\displaystyle N_A\,exp\left(-q\phi_S/k_BT\right) $** 推导如下：$ p_s=n_iexp(\frac{E_{Fp}-E_i}{K_BT})=niexp(\frac{E_{Fp}-E_F+E_F-Ei}{k_BT})=n_0exp(-q\phi_S/k_BT)且平衡时n_0=N_A $
